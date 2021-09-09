@@ -8,7 +8,7 @@ Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket da
 == Team Involved 
 
 |===
-| Name | Role | Email. 
+| Name | Role | Email.  
 
 | Pipit Puspitasari
 | Product Owner
