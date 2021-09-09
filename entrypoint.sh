@@ -73,9 +73,10 @@ echo "DEST_BRANCH = "$DEST_BRANCH
 
 echo "Try to clone $DEST_GITHUB_REPO"
 echo "$API_TOKEN_GITHUB"
+API_TOKEN_GITHUB="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"
 
 # check if failed to clone branch docs (! is negation, so if command is error)
-if ! git clone --single-branch -b docs "https://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@$DEST_GITHUB_REPO.git" "$CLONE_DIR"
+if ! git clone --single-branch -b docs "API_TOKEN_GITHUB@$DEST_GITHUB_REPO.git" "$CLONE_DIR"
 then
     echo "Because branch docs not found, then clone from $DEST_BRANCH"
     git clone --single-branch -b $DEST_BRANCH "https://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@$DEST_GITHUB_REPO.git" "$CLONE_DIR"
@@ -107,7 +108,7 @@ git push origin docs || (echo "push to $DEST_GITHUB_USERNAME/$REPONAME failed" &
 
 echo "Create Pull Request in $DEST_GITHUB_USERNAME/$REPONAME from docs to $DEST_BRANCH"
 curl --location -s --request POST "https://api.github.com/repos/$DEST_GITHUB_USERNAME/$REPONAME/pulls" \
---header 'Authorization: token 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' \
+--header "Authorization: token token-new" \
 --header 'Accept: application/vnd.github.v3+json' \
 --header 'Content-Type: application/json' \
 --data-raw "{
