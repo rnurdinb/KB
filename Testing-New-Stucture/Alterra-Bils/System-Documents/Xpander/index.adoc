@@ -3,7 +3,7 @@
  
 == Overview
 
-Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket data melalui sistem yang akan dihubungkan ke Biller.Xpander memungkinkan tim Operasional untuk melakukan pendataan status order dari Partner ataupun Biller. Untuk saat ini, _platform_ Xpander hanya bisa digunakan untuk produk isi pulsa, paket data dan game _voucher_.   
+Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket data melalui sistem yang akan dihubungkan ke Biller.Xpander memungkinkan tim Operasional untuk melakukan pendataan status order dari Partner ataupun Biller. Untuk saat ini, _platform_ Xpander hanya bisa digunakan untuk produk isi pulsa, paket data dan game _voucher_.    
       
 == Team Involved 
 
