@@ -1,0 +1,20 @@
+= Technology Xpander
+
+|===
+| Spesification | Name
+
+| OS
+| Debian 9
+
+| Web Server
+| NGINX
+
+| Programming Language
+| Php 7
+
+| Framework
+| Laravel
+
+| DBMS
+| Mysql
+|===

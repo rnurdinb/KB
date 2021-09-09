@@ -1,0 +1,24 @@
+# This CI should run after mergin from Pull Request (after editing)
+
+name: Push Back to System Repo
+
+on:
+ pull_request:
+  types: [closed]
+  
+jobs:
+  build:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Pushes to origin repository
+        #uses: rochmadnurdin/knowledgebase@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_INTEGRATED_REPO }}
+          USER_EMAIL: dev@alterra.id
+#           DEST_BRANCH: master
+        run: |
+          echo "Running $(date)"
+          git --version
+          sh entrypoint.sh

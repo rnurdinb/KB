@@ -1,0 +1,49 @@
+= Environment Xpander
+
+== Staging
+
+|===
+| *Name* | *Spesification*
+
+| IP Address
+| 103.117.207.40
+
+| URL
+| https://xpander-uat.alphabill.id/[]
+
+| Doc Root
+| /sepulsa/www/xpander
+
+| Service Name
+| -
+
+| DB Server
+| -
+
+| Git Branch
+| -
+|===
+
+== Production
+
+|===
+| *Name* | *Spesification*
+
+| IP Address
+| 103.117.***.54
+
+| URL
+| https://xpander.alphabill.id/[]
+
+| Doc Root
+| /sepulsa/www/xpander
+
+| Service Name
+| -
+
+| DB Server
+| 103.117.207.54:__**__
+
+| Git Branch
+| -
+|===

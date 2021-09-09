@@ -1,0 +1,13 @@
+= System URL Xpander
+
+Berikut ini merupakan _link-link_ yang digunakan oleh sistem Xpander:
+
+|===
+| Environment | URL
+
+| Staging
+| https://xpander-uat.alphabill.id/
+
+| Production
+| https://xpander.alphabill.id
+|===

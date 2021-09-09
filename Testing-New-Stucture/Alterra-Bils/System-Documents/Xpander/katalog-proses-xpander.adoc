@@ -1,0 +1,407 @@
+= Process and Log Catalog Xpander
+
+Berikut ini merupakan informasi Katalog Proses dan Log dari sistem Xpander:
+
+|===
+|  |  |  |  |  |  |
+
+| ID
+| API Category
+| Deskripsi
+| Privileges
+| Tags
+| Pivotal ID
+|
+
+| user.login
+| Kraken 2
+| User can login into Admin Site
+| All Users
+|
+| #123
+|
+
+| user.create
+| Kraken 2
+| User can create another user account
+| Admin
+|
+| "#123
+| #234"
+
+| user.edit
+| Kraken 2
+| User can edit other user account
+| Admin
+|
+|
+|
+
+| user.enable
+| Kraken 2
+| User can activate other user account
+| Admin
+|
+|
+|
+
+| user.disable
+| Kraken 2
+| User can deactivate other user account
+| Admin
+|
+|
+|
+
+| role.add
+| Kraken 2
+| User can add new role
+| Admin
+|
+|
+|
+
+| role.edit
+| Kraken 2
+| User can edit existing roles
+| Admin
+|
+|
+|
+
+| operator.add
+| Kraken 2
+| User can add operator (vendor)
+| Admin
+|
+|
+|
+
+| operator.edit
+| Kraken 2
+| User can edit operator (vendor)
+| Admin
+|
+|
+|
+
+| partner.manage
+| Kraken 2
+| User can browse partner data
+| Admin
+|
+|
+|
+
+| partner.manage.add
+| Kraken 2
+| User can add new partner
+| Admin
+|
+|
+|
+
+| partner.manage.edit
+| Kraken 2
+| User can edit partner data
+| Admin
+|
+|
+|
+
+| partner.manage.enable
+| Kraken 2
+| User can activate/enable partner
+| Admin
+|
+|
+|
+
+| partner.manage.disable
+| Kraken 2
+| user can deactivate/disable partner
+| Admin
+|
+|
+|
+
+| partner.manage.settings
+| Kraken 2
+| User can manage partner settings
+| Admin
+|
+|
+|
+
+| partner.balance
+| Kraken 2
+| User can browse partner balance
+| Admin
+|
+|
+|
+
+| partner.balance.add
+| Kraken 2
+| User can add partner balance manually
+| Admin
+|
+|
+|
+
+| product.manage
+| Kraken 2
+| User can manage product
+| Admin
+|
+|
+|
+
+| product.manage.add
+| Kraken 2
+| User can add new product
+| Admin
+|
+|
+|
+
+| product.manage.edit
+| Kraken 2
+| User can edit product data
+| Admin
+|
+|
+|
+
+| product.manage.disable
+| Kraken 2
+| User can disable product
+| Admin
+|
+|
+|
+
+| product.manage.enable
+| Kraken 2
+| User can enable product
+| Admin
+|
+|
+|
+
+| product.manage.archive
+| Kraken 2
+| User can archive unused product data
+| Admin
+|
+|
+|
+
+| product.manage.search
+| Kraken 2
+| User can search product based on the form criteria
+| Admin
+|
+|
+|
+
+| product.manage.biller
+| Kraken 2
+| User can assign/remove biller from product data
+| Admin
+|
+|
+|
+
+| product.change.approval
+| Kraken 2
+| User can see list approval needed to be approved
+| Admin
+|
+|
+|
+
+| product.change.history
+| Kraken 2
+| User can browse approval history
+| Admin
+|
+|
+|
+
+| product.price.logs
+| Kraken 2
+| User can browse price change log
+| Admin
+|
+|
+|
+
+| prodcut.logs
+| Kraken 2
+| User can browse product change log
+| Admin
+|
+|
+|
+
+| package.manage
+| Kraken 2
+| User can manage product package
+|
+|
+|
+|
+
+| package.manage.add
+| Kraken 2
+| User can add product package
+|
+|
+|
+|
+
+| package.manage.edit
+| Kraken 2
+| User can edit product package
+|
+|
+|
+|
+
+| package.manage.edit.addproduct
+| Kraken 2
+| User can add product in product package
+|
+|
+|
+|
+
+| package.manage.edit.import
+| Kraken 2
+| User can import product package setting from CSV
+|
+|
+|
+|
+
+| package.manage.edit.export
+| Kraken 2
+| User can export product package setting into CSV
+|
+|
+|
+|
+
+| package.manage.edit.disableproduct
+| Kraken 2
+| User can disable specific product on package
+|
+|
+|
+|
+
+| package.manage.edit.enableproduct
+| Kraken 2
+| User can enable specific product on package
+|
+|
+|
+|
+
+| package.change
+| Kraken 2
+| "User can "
+|
+|
+|
+|
+
+| package.price.logs
+| Kraken 2
+| User can browse package price change logs
+|
+|
+|
+|
+
+| package.logs
+| Kraken 2
+| User can browse package change logs
+|
+|
+|
+|
+
+| biller.manage
+| Kraken 2
+| User can manage biller
+|
+|
+|
+|
+
+| biller.manage.config
+| Kraken 2
+| User can manage biller config
+|
+|
+|
+|
+
+| biller.manage.stock
+| Kraken 2
+| User can manage biller stock
+|
+|
+|
+|
+
+| biller.stock-inventory
+| Kraken 2
+| User can see latest stock update
+|
+|
+|
+|
+
+| transaction.transaction
+| Kraken 2
+| User can browse transaction data from partner
+|
+|
+|
+|
+
+| transaction.biller
+| Kraken 2
+| User can browse transaction data to biller
+|
+|
+|
+|
+
+| transaction.quarantine
+| Kraken 2
+| User can see quarantined transaction data
+|
+|
+|
+|
+
+| settings.system-param
+| Kraken 2
+| Settings for Kraken System Param
+|
+|
+|
+|
+
+| settings.cache
+| Kraken 2
+| Settings for Kraken System Cache
+|
+|
+|
+|
+|===

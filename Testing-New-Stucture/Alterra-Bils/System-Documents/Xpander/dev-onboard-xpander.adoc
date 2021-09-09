@@ -1,0 +1,29 @@
+= Developer Onboarding Xpander
+
+|===
+| Tools | Name
+
+| Web Server
+| NGINX
+
+| Manual Test API
+| Postman
+
+| Browser
+| Chrome, Firefox
+
+| Programming Language
+| Php
+
+| Framework
+| Laravel
+
+| Database
+| Mysql
+|===
+
+== Local Machine Setup
+
+* Unduh proyek ini dari Github _repository_ https://github.com/sepulsa/xpander
+* `cp .env.example .env` dan siapkan _local configurations_-mu
+* `php artisan serve` untuk _run_ xpander di _local_-mu.

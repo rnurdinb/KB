@@ -1,0 +1,49 @@
+= Xpander dari kb 
+:keywords: telco,sti
+
+== Overview
+
+Xpander adalah _platform_ untuk mengelola transaksi pembelian pulsa dan paket data melalui sistem yang akan dihubungkan ke Biller.Xpander memungkinkan tim Operasional untuk melakukan pendataan status order dari Partner ataupun Biller. Untuk saat ini, _platform_ Xpander hanya bisa digunakan untuk produk isi pulsa, paket data dan game _voucher_. 
+      
+== Team Involved 
+
+|===
+| Name | Role | Email
+
+| Pipit Puspitasari
+| Product Owner
+| pipit@alterra.id
+
+| Ananto Eko Hendarto
+| Developer Manager
+| anton@alterra.id
+
+| Kurniawan Eko Wasono
+| Lead Developer
+| iwan@alterra.id
+
+| Johanes Paulus Giovani Putra
+| Lead Quality Engineer
+| johanes@alterra.id
+
+| Pipit Puspitasari
+| Ex Lead System Analyst
+| pipit@alterra.id
+|===
+
+== Technical Information
+
+<<url-xpander.adoc#, System URL Xpander>>
+
+<<technology-xpander.adoc#, Technology Xpander>>
+
+<<environment-xpander.adoc#, Environment Xpander>>
+
+== Onboarding Information
+
+<<dev-onboard-xpander.adoc#, Developer Onboarding Xpander>>
+
+
+== Documentation
+
+<<katalog-proses-xpander.adoc#, Process and Log Catalog Xpander>>
