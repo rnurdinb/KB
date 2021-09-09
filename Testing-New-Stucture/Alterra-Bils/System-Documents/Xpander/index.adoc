@@ -1,4 +1,4 @@
-= Xpander dari kb  
+= Xpander dari kb   
 :keywords: telco,sti  
  
 == Overview
