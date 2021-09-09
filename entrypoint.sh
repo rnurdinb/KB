@@ -79,7 +79,7 @@ API_TOKEN_GITHUB="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"
 if ! git clone --single-branch -b docs "API_TOKEN_GITHUB@$DEST_GITHUB_REPO.git" "$CLONE_DIR"
 then
     echo "Because branch docs not found, then clone from $DEST_BRANCH"
-    git clone --single-branch -b $DEST_BRANCH "https://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@$DEST_GITHUB_REPO.git" "$CLONE_DIR"
+    git clone --single-branch -b $DEST_BRANCH "https://token-new@$DEST_GITHUB_REPO.git" "$CLONE_DIR"
     cd $CLONE_DIR && git checkout -b docs && cd $CUR_DIR
 fi
 cd $CLONE_DIR && git pull origin $DEST_BRANCH
