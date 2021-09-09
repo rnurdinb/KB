@@ -107,7 +107,7 @@ git push origin docs || (echo "push to $DEST_GITHUB_USERNAME/$REPONAME failed" &
 
 echo "Create Pull Request in $DEST_GITHUB_USERNAME/$REPONAME from docs to $DEST_BRANCH"
 curl --location -s --request POST "https://api.github.com/repos/$DEST_GITHUB_USERNAME/$REPONAME/pulls" \
---header 'Authorization: token $API_TOKEN_GITHUB' \
+--header 'Authorization: token testing' \
 --header 'Accept: application/vnd.github.v3+json' \
 --header 'Content-Type: application/json' \
 --data-raw "{
